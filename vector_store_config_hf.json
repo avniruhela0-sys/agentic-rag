@@ -1,0 +1,8 @@
+{
+  "vector_store_path": "chroma_db_hf",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_count": 100,
+  "retriever_k": 4,
+  "free": true,
+  "model_type": "HuggingFace"
+}

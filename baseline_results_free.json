@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-08-11T16:59:39.774439",
+  "model": "mistral (Ollama - free)",
+  "temperature": 0,
+  "retriever_k": 4,
+  "vector_store": "chroma_db_hf",
+  "test_results": [
+    {
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "expected_answer": "yes",
+      "rag_answer": " I don't have enough information to answer this question specifically about Scott Derrickson, as he is not mentioned in the context provided. However, it can be assumed that both Scott Derrickson (given his American name) and Ed Wood (an American filmmaker) are likely of the same nationality, American.",
+      "num_chunks": 4
+    },
+    {
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "expected_answer": "Chief of Protocol",
+      "rag_answer": " I don't have enough information to answer this question. The context provided does not mention any government position held by the actress who portrayed Corliss Archer in the film \"Kiss and Tell\".",
+      "num_chunks": 4
+    },
+    {
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "expected_answer": "Animorphs",
+      "rag_answer": " The Animorphs series, as it is a science fantasy young adult book series written in first person, and its companion book \"The Hork-Bajir Chronicles\" narrates the stories of an enslaved world (Hork-Bajir) and alien species (Hork-Bajir).",
+      "num_chunks": 4
+    },
+    {
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "expected_answer": "no",
+      "rag_answer": " No, the Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood. The Laleli Mosque is located in Laleli, Fatih, Istanbul, while the Esma Sultan Mansion is found in Ortak\u00f6y.",
+      "num_chunks": 4
+    },
+    {
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "expected_answer": "Greenwich Village, New York City",
+      "rag_answer": " I don't have enough information to answer this question. The context does not specify where the director of \"Big Stone Gap\" is currently based.",
+      "num_chunks": 4
+    }
+  ],
+  "notes": "Baseline RAG - FREE version using Ollama"
+}

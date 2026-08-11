@@ -1,0 +1,275 @@
+{
+  "timestamp": "2026-08-11T17:02:36.933920",
+  "model": "mistral (Ollama - free)",
+  "temperature": 0,
+  "retriever_k": 4,
+  "vector_store": "chroma_db_hf",
+  "total_questions": 20,
+  "correct": 5,
+  "incorrect": 15,
+  "accuracy": 0.25,
+  "avg_sources": 4.0,
+  "test_results": [
+    {
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "expected_answer": "yes",
+      "rag_answer": " I don't have enough information to answer this question specifically about Scott Derrickson, as he is not mentioned in the context provided. However, it can be assumed that both Scott Derrickson (given his American name) and Ed Wood (an American filmmaker) are likely of the same nationality, American.",
+      "sources": [
+        "Ed Wood (film)",
+        "Ed Wood",
+        "Adam Collis",
+        "Woodson, Arkansas"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "expected_answer": "Chief of Protocol",
+      "rag_answer": " I don't have enough information to answer this question. The context provided does not mention any government position held by the actress who portrayed Corliss Archer in the film \"Kiss and Tell\".",
+      "sources": [
+        "Kiss and Tell (1945 film)",
+        "A Kiss for Corliss",
+        "Meet Corliss Archer (TV series)",
+        "Janet Waldo"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "expected_answer": "Animorphs",
+      "rag_answer": " The Animorphs series, as it is a science fantasy young adult book series written in first person, and its companion book \"The Hork-Bajir Chronicles\" narrates the stories of an enslaved world (Hork-Bajir) and alien species (Hork-Bajir).",
+      "sources": [
+        "The Hork-Bajir Chronicles",
+        "Victoria Hanley",
+        "Animorphs",
+        "Victoria Hanley"
+      ],
+      "num_chunks": 4,
+      "is_correct": true
+    },
+    {
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "expected_answer": "no",
+      "rag_answer": " No, the Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood. The Laleli Mosque is located in Laleli, Fatih, Istanbul, while the Esma Sultan Mansion is found in Ortak\u00f6y.",
+      "sources": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque",
+        "Esma Sultan (daughter of Abd\u00fclaziz)",
+        "Esma Sultan"
+      ],
+      "num_chunks": 4,
+      "is_correct": true
+    },
+    {
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "expected_answer": "Greenwich Village, New York City",
+      "rag_answer": " I don't have enough information to answer this question. The context does not specify where the director of \"Big Stone Gap\" is currently based.",
+      "sources": [
+        "Big Stone Gap (film)",
+        "I Love NY (2015 film)",
+        "Conrad Brooks",
+        "Criss Angel"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "expected_answer": "YG Entertainment",
+      "rag_answer": " The context does not provide information about who formed the South Korean boy group that released the album \"2014 S/S\".",
+      "sources": [
+        "2014 S/S",
+        "List of awards and nominations received by Shinee",
+        "BTS discography",
+        "Seventeen discography"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "expected_answer": "Eenasul Fateh",
+      "rag_answer": " Eenasul Fateh, also known by his stage name Aladin, has served as a consultant.",
+      "sources": [
+        "Eenasul Fateh",
+        "Mick (DJ)",
+        "James P. Comer",
+        "Criss Angel"
+      ],
+      "num_chunks": 4,
+      "is_correct": true
+    },
+    {
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "expected_answer": "3,677 seated",
+      "rag_answer": " I don't have enough information to answer this question as there is no mention of the Lewiston Maineiacs or their arena in the provided context.",
+      "sources": [
+        "Great Eastern Conventions",
+        "New York Society of Model Engineers",
+        "New York Society of Model Engineers",
+        "New York Society of Model Engineers"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "expected_answer": "Terry Richardson",
+      "rag_answer": " I don't have enough information to answer this question as there is no mention of Annie Morton or Terry Richardson in the provided context.",
+      "sources": [
+        "James P. Comer",
+        "Victoria Hanley",
+        "Indriati Iskak",
+        "Meet Corliss Archer"
+      ],
+      "num_chunks": 4,
+      "is_correct": true
+    },
+    {
+      "question": "Are Local H and For Against both from the United States?",
+      "expected_answer": "yes",
+      "rag_answer": " I don't have enough information to answer this question. The provided context does not mention any entities named \"Local H\" or \"For Against.\"",
+      "sources": [
+        "Great Eastern Conventions",
+        "Lord High Treasurer",
+        "Madtown",
+        "Village accountant"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "expected_answer": "Kansas Song",
+      "rag_answer": " I don't have enough information to answer this question as it pertains to a university fight song, and there is no mention of any universities or their fight songs in the provided context.",
+      "sources": [
+        "Kingston Morning",
+        "Seventeen discography",
+        "Madtown",
+        "SF9 (band)"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+      "expected_answer": "David Weissman",
+      "rag_answer": " I don't have enough information to answer this question from the provided context. The context does not mention any screenwriters for the films involving Nicolas Cage or T\u00e9a Leoni.",
+      "sources": [
+        "Conrad Brooks",
+        "Ed Wood (film)",
+        "Tyler Bates",
+        "Adam Collis"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "expected_answer": "1999",
+      "rag_answer": " I don't have enough information to answer this question, as the context does not mention any connection between Guns N Roses and Arnold Schwarzenegger.",
+      "sources": [
+        "Tyler Bates",
+        "Conrad Brooks",
+        "Adam Collis",
+        "Kiss and Tell (1945 film)"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "expected_answer": "no",
+      "rag_answer": " I don't have enough information to answer this question as the context does not mention either Random House Tower or 888 7th Avenue.",
+      "sources": [
+        "New York Society of Model Engineers",
+        "Great Eastern Conventions",
+        "Woodson, Arkansas",
+        "New York Society of Model Engineers"
+      ],
+      "num_chunks": 4,
+      "is_correct": true
+    },
+    {
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "expected_answer": "from 1986 to 2013",
+      "rag_answer": " I don't have enough information to answer this question.",
+      "sources": [
+        "History (band)",
+        "Mick (DJ)",
+        "Conrad Brooks",
+        "Indriati Iskak"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "expected_answer": "9,984",
+      "rag_answer": " I don't have enough information to answer this question as there is no mention of \"Brown State Fishing Lake\" or any related geographical location in the provided context.",
+      "sources": [
+        "Kingston Morning",
+        "Clinton, Minnesota",
+        "Village accountant",
+        "New York Society of Model Engineers"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "expected_answer": "the North Atlantic Conference",
+      "rag_answer": " I don't have enough information to answer this question. The provided context does not mention any information about the Vermont Catamounts men's soccer team or their former conference.",
+      "sources": [
+        "New York Society of Model Engineers",
+        "New York Society of Model Engineers",
+        "History (band)",
+        "Great Eastern Conventions"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "expected_answer": "yes",
+      "rag_answer": " I don't have enough information to answer this question as neither Giuseppe Verdi nor Ambroise Thomas are mentioned in the provided context.",
+      "sources": [
+        "The Divide trilogy",
+        "Conrad Brooks",
+        "Adriana Trigiani",
+        "Criss Angel"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "expected_answer": "1969 until 1974",
+      "rag_answer": " I don't have enough information to answer this question, as there is no mention of Roger O. Egeberg or his role in any presidential administration within the provided context.",
+      "sources": [
+        "James P. Comer",
+        "Secretary of State for Constitutional Affairs",
+        "James P. Comer",
+        "James P. Comer"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    },
+    {
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "expected_answer": "Robert Erskine Childers DSC",
+      "rag_answer": " I don't have enough information to answer this question as the context provided does not mention any writers from England named Henry Roth or Robert Erskine Childers.",
+      "sources": [
+        "James P. Comer",
+        "Victoria Hanley",
+        "James P. Comer",
+        "Ed Wood"
+      ],
+      "num_chunks": 4,
+      "is_correct": false
+    }
+  ],
+  "notes": "Baseline RAG - no agent, no self-correction"
+}
