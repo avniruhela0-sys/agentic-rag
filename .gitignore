@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Environment variables (CRITICAL - KEEPS SECRETS SAFE!)
+.env
+
+# Vector database
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
