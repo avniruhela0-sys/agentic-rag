@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-08-13T12:13:42.382831",
+  "total_questions": 10,
+  "baseline": {
+    "correct": 5,
+    "accuracy": 50.0
+  },
+  "agentic": {
+    "correct": 7,
+    "accuracy": 70.0,
+    "avg_score": 0.0,
+    "avg_attempts": 2.0,
+    "avg_time": 42.606941890716556
+  },
+  "improvement": 20.0,
+  "details": {
+    "agent_results": [
+      {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "expected": "yes",
+        "answer": " Yes, both Scott Derrickson and Ed Wood were American. They were born in the United States, with Scott Derrickson born in Los Angeles, California, and Ed Wood born in Santa Monica, California.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": true,
+        "time": 37.1221342086792
+      },
+      {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "expected": "Chief of Protocol",
+        "answer": " The woman who portrayed Corliss Archer in the film \"Kiss and Tell\" is Shirley Temple Black. However, there is no information provided in the context about her holding any specific government position. Therefore, it cannot be determined from the given context what government position was held by the woman who portrayed Corliss Archer in the film \"Kiss and Tell\".",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": false,
+        "time": 43.42430901527405
+      },
+      {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "expected": "Animorphs",
+        "answer": " The science fantasy young adult series with a set of companion books narrating the stories of enslaved worlds and alien species is \"Animorphs\". This series, written by Katherine Applegate and her husband Michael Grant under the name K. A. Applegate, includes the companion book \"The Hork-Bajir Chronicles\" which focuses on the Hork-Bajir, an enslaved alien species in the Animorphs universe. The series is published by Scholastic and is told in first person with multiple characters narrating the books through their own perspectives.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": true,
+        "time": 49.36942100524902
+      },
+      {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "expected": "no",
+        "answer": " No, the Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood. The Laleli Mosque is located in the Fatih district of Istanbul, while the Esma Sultan Mansion is located in Ortak\u00f6y.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": true,
+        "time": 40.6870698928833
+      },
+      {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "expected": "Greenwich Village, New York City",
+        "answer": " Adriana Trigiani, the director of the romantic comedy \"Big Stone Gap\", is based in Greenwich Village, New York City.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": true,
+        "time": 28.9269700050354
+      },
+      {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "expected": "YG Entertainment",
+        "answer": " The debut album, \"2014 S/S\", belongs to the South Korean boy group WINNER. According to the provided context, this group was formed by YG Entertainment. Therefore, WINNER was not formed by Pledis Entertainment or S.M. Entertainment like Shinee and Seventeen respectively. Instead, they were formed by YG Entertainment.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": true,
+        "time": 50.5597620010376
+      },
+      {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "expected": "Eenasul Fateh",
+        "answer": " Eenasul Fateh, who is also known by his stage name Aladin, has worked as a consultant. However, the context does not specify that he helped organizations improve their performance. His professional background includes being a Bangladeshi-British cultural practitioner, magician, live artist, and former international management consultant. He has also invested in start-up companies including Localeur, where he serves as an advisor and consultant.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": true,
+        "time": 51.340174198150635
+      },
+      {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "expected": "3,677 seated",
+        "answer": " The context provided does not contain information about the arena where the Lewiston Maineiacs played their home games or its seating capacity. Therefore, it is impossible to determine the answer based on the given context.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": false,
+        "time": 46.03075575828552
+      },
+      {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "expected": "Terry Richardson",
+        "answer": " It is not possible to determine the age of Annie Morton or Terry Richardson from the provided context.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": true,
+        "time": 39.53806781768799
+      },
+      {
+        "question": "Are Local H and For Against both from the United States?",
+        "expected": "yes",
+        "answer": " No, it cannot be definitively determined if Local H or For Against are both from the United States based on the provided context. The context only discusses South Korean boy groups, a British government position, and an entrepreneur's investments in start-up companies, but there is no mention of Local H or For Against.",
+        "score": 0.0,
+        "attempts": 2,
+        "correct": false,
+        "time": 39.07075500488281
+      }
+    ],
+    "baseline_results": [
+      {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "expected": "yes",
+        "answer": " Based on the provided context, there is no information about Scott Derrickson's nationality. Therefore, it cannot be determined if he and Ed Wood were of the same nationality.",
+        "correct": false
+      },
+      {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "expected": "Chief of Protocol",
+        "answer": " There is no information provided that suggests the woman who portrayed Corliss Archer in the film Kiss and Tell held a government position. Shirley Temple, the actress who played Corliss Archer, was a child star at the time of the film's release and did not hold any government positions.",
+        "correct": false
+      },
+      {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "expected": "Animorphs",
+        "answer": " The Animorphs series, written by K. A. Applegate, has a set of companion books narrating the stories of enslaved worlds and alien species.",
+        "correct": true
+      },
+      {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "expected": "no",
+        "answer": " No, the Laleli Mosque is located in the Laleli neighborhood, while the Esma Sultan Mansion is found in Ortak\u00f6y.",
+        "correct": true
+      },
+      {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "expected": "Greenwich Village, New York City",
+        "answer": " The context does not provide information about where the director of \"Big Stone Gap\" is based.",
+        "correct": false
+      },
+      {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "expected": "YG Entertainment",
+        "answer": " The South Korean boy group that released the debut album \"2014 S/S\" in 2014 was formed by YG Entertainment.",
+        "correct": true
+      },
+      {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "expected": "Eenasul Fateh",
+        "answer": " Eenasul Fateh, also known by his stage name Aladin, has served as a consultant.",
+        "correct": true
+      },
+      {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "expected": "3,677 seated",
+        "answer": " The context provided does not contain information about the arena where the Lewiston Maineiacs played their home games or its seating capacity.",
+        "correct": false
+      },
+      {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "expected": "Terry Richardson",
+        "answer": " The context does not provide information about Annie Morton and Terry Richardson, so it is impossible to determine who is older between the two individuals.",
+        "correct": true
+      },
+      {
+        "question": "Are Local H and For Against both from the United States?",
+        "expected": "yes",
+        "answer": " The context does not provide information about Local H or For Against, so I cannot determine if they are from the United States.",
+        "correct": false
+      }
+    ]
+  }
+}
